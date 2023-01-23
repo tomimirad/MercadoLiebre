@@ -1,0 +1,39 @@
+header{
+  background-color: #eac926;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+  font-size: 24px;
+}
+
+.precio{
+  font-size: 18px;
+}
+
+article p {
+  font-size: 16px;
+}
+
+p{
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+}
+
+i{
+  width: 2em;
+}
+footer i {
+  margin-bottom: 10px;
+  height: 2em;
+}
+
+img{
+  width: 360px;
+}
