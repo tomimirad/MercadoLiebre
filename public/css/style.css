@@ -1,16 +1,43 @@
-header{
+header {
   background-color: #eac926;
 }
 
-*{
-  font-family: 'Roboto', sans-serif;
+body {
+  background-color: #ebebeb;
+
 }
 
-h3{
+main {
+  width: 90vw;
+}
+
+.detalles {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+.burger-menu {
+  margin: auto;
+}
+
+article {
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  width: 90vw;
+}
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding: auto;
+}
+
+h3 {
   font-size: 24px;
 }
 
-.precio{
+.precio {
   font-size: 18px;
 }
 
@@ -18,7 +45,7 @@ article p {
   font-size: 16px;
 }
 
-p{
+p {
   font-size: 12px;
 }
 
@@ -26,14 +53,15 @@ footer {
   text-align: center;
 }
 
-i{
+i {
   width: 2em;
 }
+
 footer i {
   margin-bottom: 10px;
   height: 2em;
 }
 
-img{
-  width: 360px;
+img {
+  width: 90vw;
 }
