@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/form.css">
+  <title>Registro</title>
+</head>
+<body>
+  <main class="contenedor-registro">
+    <form class="registro" action="" method="post">
+      <input type="text" name="nombre" placeholder="Nombre y apellido">
+      <br>
+      <input type="text" name="usuario" placeholder="Nombre de usuari@">
+      <br>
+      <input type="date" name="fecha" placeholder="Fecha de nacimiento">
+      <br>
+      <input type="text" name="domicilio" placeholder="Domicilio">
+      <br>
+      <label for="perfil">Perfil de usuario</label>
+      <label for="comprador">Comprador</label>
+      <input type="radio" value="comprador" name="tipo-usuario">
+      <label for="vendedor">Vendedor</label>
+      <input type="radio" value="vendedor" name="tipo-usuario">
+      <br>
+      <label for="categoria">Categoria de interes</label>
+      <select name="categoria">
+        <option value="1">Electro</option>
+        <option value="2">Moda</option>
+        <option value="3">Hogar</option>
+        <option value="4">Jugueteria</option>
+        <option value="5">Vida sana</option>
+      </select>
+      <br>
+      <label for="foto">Foto De usuario</label>
+      <input type="file" name="foto" accept=".jpg">
+      <br>
+      <input type="password" placeholder="Contraseña">
+      <br>
+      <input type="password" checked placeholder="Confirme la contraseña">
+      <br>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </form>
+  </main>
+</body>
+</html>

@@ -10,6 +10,14 @@ const port = 3000
     res.sendFile(path.resolve("./views/home.html"))
   )
 
+  app.get('/registro', (req, res) => 
+    res.sendFile(path.resolve("./views/register.html"))
+  )
+
+  app.get('/inicio', (req, res) => 
+    res.sendFile(path.resolve("./views/login.html"))
+  )
+
   app.listen(port, () => 
     console.log(`Example app listening on port http://localhost:${port}`)
 )
