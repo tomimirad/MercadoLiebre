@@ -59,10 +59,9 @@ header input {
 }
 
 header span i{
-  background-color: white;
-position: absolute;
-    right: 180px;
-    top: 10px;    
+    position: relative;
+    right: 24px;
+    top: 2px;    
 }
 
 .main-nav a {
