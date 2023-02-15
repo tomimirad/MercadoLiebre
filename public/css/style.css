@@ -14,11 +14,14 @@ body {
 }
 
 .logo{
-  width: 50%;
+  width: 20vw;
   padding: 10px;
+  margin-right: 10px;
 }
-.top-header{
- padding: 5%;
+.header-top{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
 }
 .top-header p{
   width: 100%;
@@ -36,9 +39,6 @@ color: green;
 border: 1px solid #39b54a;
 background-color: #FFF;
 border-radius: 50%;
-position: relative;
-right: 8px;
-top: -15px;
 }
 
 article:hover .detalles i{
@@ -52,16 +52,34 @@ article:hover .detalles i{
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header input {
   margin-right: 4px;
+  width: 50%;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 1%;
 }
 
 header span i{
     position: relative;
     right: 24px;
     top: 2px;    
+    cursor: pointer;
+}
+
+.main-nav ul li{
+  margin-right: 20px;
+  font-size: 15px;
 }
 
 .main-nav a {
@@ -121,8 +139,8 @@ article:hover{
 }
 
 * {
-  margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -175,6 +193,9 @@ img {
   justify-content: center;
 }
 @media (min-width: 361px){
+  .header-top ul{
+    display: none;
+  }
   
     main section div.products{
         display: flex;
